@@ -10,6 +10,6 @@ variable "ec2_instance" {
 
 variable "allowed_ssh_cidr" {
   description = "A secure IPs for SSH-Connection"
-  type = list(string)
-  default = [ "" ]
+  type        = string
+  default     = ""
 }
